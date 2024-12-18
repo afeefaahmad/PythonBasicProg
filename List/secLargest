@@ -1,3 +1,5 @@
+
+#Considering case1:when largest will be updated  case2:when largest not updated yet there 
 arr = [1,3,6,9,2,4]
 largest = arr[0]
 secLargest = -1;
@@ -5,5 +7,8 @@ for a in arr:
     if a>largest:
         secLargest = largest
         largest = a
+    elif (a<largest and a>secLargest):
+        secLargest = a
 print(secLargest)
+
     
