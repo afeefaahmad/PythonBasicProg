@@ -11,4 +11,21 @@ for a in arr:
         secLargest = a
 print(secLargest)
 
+********************************************************************************
+def secLargest(arr):
+    maxNum = arr[0]
+    smaxNum = -1
+    
+    for a in arr:
+        
+        if(a>maxNum):
+            smaxNum = maxNum
+            maxNum = a
+        elif(a!=maxNum and a>smaxNum):
+            smaxNum = a
+    return smaxNum ,maxNum
+    
+print(secLargest([11,22,33,44,55]))
+******************************************************************************
+
     
