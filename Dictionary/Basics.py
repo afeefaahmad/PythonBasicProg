@@ -23,12 +23,6 @@ for v in d1.values():
     
 for k,v in d1.items():
     print(f"{k}:{v}")
-    
-#Prog1: length of dictionary
-count = 0
-for i in d1:
-    count += 1
-print(f"Length :{count}")
 
 #Removing elements: del pop() clear()
 #del d1['b']
@@ -38,5 +32,17 @@ print(f"Length :{count}")
 
 #d2.clear()
 #print(d2)
+
+##################################################3
+#Prog1: length of dictionary
+count = 0
+for i in d1:
+    count += 1
+print(f"Length :{count}")
+
+#Comprehension
+newd = {x: x**2 for x in [1,2,3,4]}
+print(newd)
+
 
 
