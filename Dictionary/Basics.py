@@ -24,7 +24,11 @@ for v in d1.values():
 for k,v in d1.items():
     print(f"{k}:{v}")
     
-
+#Prog1: length of dictionary
+count = 0
+for i in d1:
+    count += 1
+print(f"Length :{count}")
 
 #Removing elements: del pop() clear()
 #del d1['b']
