@@ -57,8 +57,21 @@ def say_hello():
     
 say_hello()
 
-Q4. User defined decorator example 
+Q4. Namespace in python :A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it
 🧩A4.
+Types:
+1. Built-in     2.Local     3.Global
+1. This namespace contains all the built-in functions and exceptions in Python, like print(), len(), etc. It is available throughout the program.
+print(len("Hello, World!"))
+
+2. Local & Global
+x = 10 #Global
+def print_local():
+    y = 20  #Local variable
+    print(y)
+    print(x) #Globally accessible
+print_local()  #Output: 20
+print(y)  #Local variable not accessible here
                       
                        
 
