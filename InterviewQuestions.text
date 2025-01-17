@@ -12,7 +12,8 @@ for n in numbers:
 
 
 Q2. Decorators in python
-    A decorator in Python is a function that takes another function as input, extends or modifies its behavior, and returns the enhanced function. It allows you     to add functionality to an existing function or class without modifying its structure.
+    A decorator in Python is a function that takes another function as input, extends or modifies its behavior, and returns the enhanced function. 
+    It allows you to add functionality to an existing function or class without modifying its structure.
     
 🧩A2.
 Build-in decorators : @property (Converts a method into an attribute i.e. method can be called without round braces )    
