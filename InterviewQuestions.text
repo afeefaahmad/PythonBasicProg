@@ -45,15 +45,15 @@ Q3. User defined decorator example
 🧩A3.
 def simple_decorator(func):
     def wrapper():
-        print("Before calling the function.")
-        func()  
-        print("After calling the function.")
+        print("Before func call")
+        func()
+        print("After func call")  
     return wrapper
 
 @simple_decorator
 def say_hello():
-    print("Hello, world!")
-
+    print("Hello world")
+    
 say_hello()
 
 Q4. User defined decorator example 
