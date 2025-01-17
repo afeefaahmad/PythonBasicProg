@@ -9,4 +9,56 @@ for n in numbers:
     elif(n%2==0):
         continue
     print(n)
+
+
+Q2. Decorators in python
+    A decorator in Python is a function that takes another function as input, extends or modifies its behavior, and returns the enhanced function. It allows you     to add functionality to an existing function or class without modifying its structure.
     
+🧩A2.
+Build-in decorators : @property (Converts a method into an attribute i.e. method can be called without round braces )    
+                      @staticmethod (Defines a static method i.e. it don't require an object/instance to be called)
+                      @classmethod (Takes class itself as first argument instead of instance)
+
+class Math:
+    @staticmethod
+    def add(a, b):
+        return a + b
+
+    @classmethod
+    def description(cls):
+        return f"This is a {cls.__name__} class."
+
+    @property
+    def pi(self):
+        return 3.14159
+
+print(Math.add(3, 5))  # Output: 8
+
+# Call class method
+print(Math.description())  # Output: This is a Math class.
+
+math_instance = Math()
+print(math_instance.pi)  # Output: 3.14159
+
+
+Q3. User defined decorator example 
+🧩A3.
+def simple_decorator(func):
+    def wrapper():
+        print("Before calling the function.")
+        func()  
+        print("After calling the function.")
+    return wrapper
+
+@simple_decorator
+def say_hello():
+    print("Hello, world!")
+
+say_hello()
+
+Q4. User defined decorator example 
+🧩A4.
+                      
+                       
+
+
