@@ -76,6 +76,8 @@ print(y)  #Local variable not accessible here
 Q5. Comprehension: Comprehensions in Python provide us with a short and concise way to construct new sequences(List, Dictionary and Set)
 🧩A5.
 myList = [1,2,3,4,5,6]
+
+#Comprehension list containing even numbers
 evenList = [x for x in myList if x%2==0]
 print(evenList)
 
@@ -86,7 +88,7 @@ for x in myList:
 
 print(nwList)
 
-
+#Comprehension list containing even numbers as keys and square of even numbers as  values 
 outDict = {}
 for x in myList:
     if x % 2 ==0 :
