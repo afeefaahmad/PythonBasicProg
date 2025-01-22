@@ -96,6 +96,28 @@ for x in myList:
         
 print(outDict)
 
+Q6. *args & **kwargs
+🧩A6.
+*args : It is a special syntax used in a function defination to pass a variable-length arguments
+        * : variable-length        args : name by convention
+        
+def multiplyNum(a,b,*args):
+    mul = a*b
+    for num in args:
+        mul *= num
+    return mul
+print(multiplyNum(1,2,3,4,5))
+        
+**kwargs : same def just in form of keyworded arguments in the form of key value pairs
+
+def show_info(*args, **kwargs):
+    print("args:", args)
+    print("Kwrgs:", kwargs)
+
+
+show_info("Alice", "Bob", age=25, location="New York")
+       
+
                       
                        
 
