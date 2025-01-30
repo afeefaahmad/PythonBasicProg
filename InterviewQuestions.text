@@ -136,6 +136,26 @@ print("Original:", original)  # [1, 2, [3,4]]
 print("Deep copy:", deep)      ##[1, 2, [99,4]]
 #print("Shallow copy:", shallow) #when shallow executed the value of shallow = original
 
+Q8. Shallow vs Deep copy
+🧩A8.
+
+Q9. Shallow vs Deep copy
+🧩A9.
+
+Q10. Shallow vs Deep copy
+🧩A10.
+
+Q11. Shallow vs Deep copy
+🧩A11.
+
+Q12. Shallow vs Deep copy
+🧩A12.
+
+Q13. Shallow vs Deep copy
+🧩A13.
+
+Q14. Shallow vs Deep copy
+🧩A14.
 
                       
                        
