@@ -26,4 +26,18 @@ obj.show()  # Output: Hello from Child
 
 ******************************************************************
 #To avoid above situation
+class Parent:
+    def show(self):
+        print("Hello from Parent")
+
+class Child(Parent):
+    def show(self):
+        super().show()  # Calls the Parent class's `show` method
+        print("Hello from Child")
+
+obj = Child()
+obj.show()
+# Output:
+# Hello from Parent
+# Hello from Child
 
