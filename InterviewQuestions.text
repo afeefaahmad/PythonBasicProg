@@ -136,7 +136,7 @@ print("Original:", original)  # [1, 2, [3,4]]
 print("Deep copy:", deep)      ##[1, 2, [99,4]]
 #print("Shallow copy:", shallow) #when shallow executed the value of shallow = original
 
-Q8. Shallow vs Deep copy
+Q8. 
 🧩A8.
 
 Q9. Shallow vs Deep copy
@@ -154,8 +154,18 @@ Q12. Shallow vs Deep copy
 Q13. Shallow vs Deep copy
 🧩A13.
 
-Q14. Shallow vs Deep copy
+Q14. Mutable vs Immutable
 🧩A14.
+    Immutable : Once created values can'nt be changed ex. tuple, string
+t = (1,2,3,4)
+#t[2] = 22  #error
+print(t)
+
+str = "hello"
+print(str[1])
+#str[1] = "E"   #error
+print(str)
+
 
                       
                        
