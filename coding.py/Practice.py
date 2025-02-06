@@ -11,6 +11,8 @@ def is_Palindrome(str):
 str = "nitin"
 is_Palindrome(str)
 
-#Fibonacci
+#Fibonacci series
+#nth term fibonacci
+
 
     
