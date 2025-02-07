@@ -35,5 +35,18 @@ print(find_duplicated(arr))
 #Return Unique elements:
 
 
+#break pass continue
+arr = [1,2,3,4,5,6,7,8,9]
+pass
+for element in arr:
+    if element == 5:
+        continue
+    elif element==8:
+        break
+    else:
+        print(element)
+
+#
+
 
     
