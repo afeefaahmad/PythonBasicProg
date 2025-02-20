@@ -31,3 +31,15 @@ print(isArmstrong(153))
 
 
 #Sum of Digits
+def DigitSum(num):
+    original = num
+    sol=0
+    
+    while original > 0:
+        digit = original%10
+        original = original//10
+        sol = sol + digit
+        
+    return sol
+    
+print(DigitSum(153))
