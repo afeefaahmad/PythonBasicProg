@@ -14,3 +14,20 @@ def isPalindrome(n):
 n = int(input("Enter number: "))
 print(isPalindrome(n)) 
 
+
+#Armstrong  
+def isArmstrong(num):
+    original = num
+    sol=0
+    
+    while original > 0:
+        digit = original%10
+        original = original//10
+        sol = sol + digit**3
+        
+    return sol == num
+    
+print(isArmstrong(153))
+
+
+#Sum of Digits
